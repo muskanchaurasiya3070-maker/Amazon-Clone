@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+    white-space: nowrap;
+    justify-content: space-evenly;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.nav-logo {
+    height: 50px;
+}
+
+.logo {
+    background-image: url("https://zonalogo.com/assets/amazon-logo-png-svg.webp?asset=1956");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 100px;
+}
+
+.nav-address {
+    height: 55px;
+    min-width: 120px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.mylogo {
+    align-content: center;
+}
+
+.add-icon {
+    display: flex;
+    gap: 5px;
+}
+
+.search-select {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nav-search {
+    display: flex;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.nav-search:hover {
+    border: 2px solid orangered;
+}
+
+.search-input {
+    width: 400px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.search-icon {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 129, 30);
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.panel {
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    color: beige;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops {
+    width: 70%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.box {
+    border: 2px solid black;
+    height: 425px;
+    width: 18%;
+}
+
+.box1 {
+    background-image: url(https://m.media-amazon.com/images/I/71vWoWGWrAL._AC_AIweblab1431263,T1_FMavif_SF1282.5,2052_QL54_.jpg?aicid=homepage-single-creative-card);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-color: maroon;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 35px;
+    color: white;
+    margin-top: 5px;
+}
+
+h4 {
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+h6 {
+    margin-left: 10px;
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+.box2 {
+    background-image: url(https://m.media-amazon.com/images/I/71C7fqszD8L._AC_AIweblab1431263,T1_FMavif_SF1282.5,2052_QL54_.jpg?aicid=homepage-single-creative-card);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-color: rgb(222, 133, 8);
+}
+
+.box3 {
+    background-image: url(https://m.media-amazon.com/images/I/71u7IeoDpXL._AC_AIweblab1431263,T1_FMavif_SF1282.5,2052_QL54_.jpg?aicid=homepage-single-creative-card);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-color: maroon;
+}
+
+.box4 {
+    background-image: url(https://m.media-amazon.com/images/I/61UXs+zVTDL._AC_AIweblab1431263,T1_FMavif_SF1282.5,2052_QL54_.jpg?aicid=homepage-single-creative-card);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-color: maroon;
+}
+
+.box5 {
+    background-image: url(https://m.media-amazon.com/images/I/71ALMryNgXL._AC_AIweblab1431263,T1_FMavif_SF1282.5,2052_QL54_.jpg?aicid=homepage-single-creative-card);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-color: green;
+}
+
+
+
+
+.shop-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+
+.book {
+    border: 2px solid black;
+    height: 410px;
+    width: 23%;
+    border-radius: 10px;
+    border-color: rgb(41, 164, 164);
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+
+
+.product {
+    text-align: center;
+}
+
+
+
+
+.product img {
+    width: 100px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
+
+
+.product p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
+.product b {
+    font-size: 16px;
+    color: #111;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
